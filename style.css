@@ -316,7 +316,12 @@ nav .fa-solid{
     font-size: 16px;
 }
 .header-text h1{
-    font-size: 30px;
+    font-size: 20px;
+    left: -200px;
+}
+.logo{
+    left: -70px;
+    width: 100px;
 }
 nav .fa-regular{
     display: block;
@@ -332,14 +337,14 @@ nav ul{
     position: fixed;
     top: 0;
     right: -200px;
-    width: 200px;
+    width: 120px;
     height: 100vh;
     padding-top: 50px;
     z-index: 2;
     transition: 0.5s;
 }
-na ul li{
-    display: block;
+nav ul li{
+    display: inline-block;
     margin: 25px;
 }
 nav ul .fa-solid{
@@ -365,9 +370,26 @@ nav ul .fa-solid{
     font-size: 16px;
     margin-right: 20px;
 }
-.experience-list{
-    font-size: 16px;
+.experience-list div{
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 100;
+    border-right: 10px;
+}
+.experience-list div i{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.experience-list div h2{
+    font-size: 14px;
+}
+.experience-list div h3{
+    font-size: 14px;
+}
+.experience-content{
+    font-size: 14px;
     margin-right: 20px;
+    font-size: 10px;
 }
 }
 #msg{
