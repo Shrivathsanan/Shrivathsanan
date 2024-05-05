@@ -327,8 +327,10 @@ nav .fa-solid{
     position: absolute;
 }
 .logo{
-    left: -70px;
-    width: 100px;
+    left: 0px;
+    bottom: 30px;
+    width: 50px;
+    image-resolution: 1080px;
 }
 nav .fa-regular{
     display: block;
