@@ -311,6 +311,9 @@ nav .fa-solid{
 #header{
     background-image: url(images/m.jpg);
 }
+.container{
+    padding: 5px 5%;
+}
 .header-text{
     margin-top: 100%;
     font-size: 16px;
@@ -327,8 +330,9 @@ nav .fa-solid{
     position: absolute;
 }
 .logo{
-    left: 0px;
-    bottom: 30px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
     width: 50px;
     image-resolution: 1080px;
 }
@@ -339,6 +343,9 @@ nav .fa-regular{
 nav .fa-solid{
     display: block;
     font-size: 25px;
+    position: absolute;
+    top: 25px;
+    right: 5px;
 }
 
 nav ul{
