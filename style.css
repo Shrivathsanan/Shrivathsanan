@@ -391,7 +391,6 @@ nav .fa-solid{
     z-index: -1;
 }
 
-/* Responsive Styles */
 @media only screen and (max-width: 600px) {
     #header {
         background: none;
@@ -408,7 +407,7 @@ nav .fa-solid{
 }
 .header-text h1{
     font-size: 24px;
-    left: 120px;
+    left: 100px;
     bottom: -150px;
     position: absolute;
 }
