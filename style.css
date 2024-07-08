@@ -380,7 +380,11 @@ nav .fa-solid{
     display: none;
 }
 
-.mobile-video {
+@media only screen and (max-width: 600px) {
+    #header {
+        background: none;
+    }
+    .video-bg{
     display: none;
     position: absolute;
     top: 0;
@@ -390,12 +394,7 @@ nav .fa-solid{
     object-fit: cover;
     z-index: -1;
 }
-
-@media only screen and (max-width: 600px) {
-    #header {
-        background: none;
-    }
-    .mobile-video {
+    #bg-video {
         display: block;
     }
 .container{
@@ -407,7 +406,7 @@ nav .fa-solid{
 }
 .header-text h1{
     font-size: 24px;
-    left: 40px;
+    left: 55px;
     bottom: -150px;
     position: absolute;
 }
