@@ -1,5 +1,5 @@
 ### Hi there 👋
-Fresher | Junior Web Developer | Proficient in HTML, CSS, JavaScript, SQL | Passionate About Creating Dynamic and User-Friendly Web Applications
+
 <!--
 **Shrivathsanan/Shrivathsanan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
